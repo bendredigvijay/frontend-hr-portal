@@ -1,0 +1,218 @@
+{
+ 
+  "companyInfo": {    
+    "id": "smartshiphub_001",
+    "name": "Smart Ship© Hub Digital",
+    "shortName": "Smart Ship Hub",
+    "logo": "/assets/smartshiphub-logo.png",
+    "location": "2 Venture Drive, Vision Exchange, Singapore 608526",
+    "industry": "Maritime Technology & Digital Solutions",
+    "employees": "51-200",
+    "foundedYear": "2019",
+    "description": "Smart Ship© Hub is a leading maritime digitalization platform providing cloud-based solutions for ship owners, operators, charterers, and insurers. The platform offers comprehensive fleet performance management, vessel optimization, predictive maintenance, and decarbonization solutions through real-time data analytics and IoT integration.",
+    "website": "https://smartshiphub.com",
+    "email": "contact@smartshiphub.com",
+    "phone": "+65 9894 6598",
+    "address": {
+      "street": "2 Venture Drive, #19-18 Vision Exchange",
+      "area": "Singapore",
+      "city": "Singapore",
+      "state": "Singapore",
+      "pincode": "608526",
+      "country": "Singapore"
+    },
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/smart-ship-hub/",
+      "twitter": "https://www.instagram.com/smartshiphub/",
+      "facebook": "https://www.facebook.com/SmartShiphub/"
+    }
+  },
+
+
+  "availablePositions": [
+    {
+      "id": "pos_001",
+      "title": "Software Engineer",
+      "department": "Engineering",
+      "experience": "0-2 years",
+      "location": "Mumbai, India",
+      "type": "Full-time",
+      "skills": ["JavaScript", "React", "Node.js", "MongoDB"],
+      "salaryRange": {
+        "min": 600000,
+        "max": 1200000,
+        "currency": "INR"
+      },
+      "description": "Develop and maintain web applications using modern technologies"
+    },
+    {
+      "id": "pos_003",
+      "title": "Backend Developer",
+      "department": "Engineering",
+      "experience": "1-4 years",
+      "location": "Mumbai, India",
+      "type": "Full-time",
+      "skills": ["Node.js", "Python", "Java", "PostgreSQL", "MongoDB"],
+      "salaryRange": {
+        "min": 700000,
+        "max": 1400000,
+        "currency": "INR"
+      },
+      "description": "Build scalable server-side applications and APIs"
+    }
+  ],
+  "benefitsAndPerks": [
+    {
+      "id": "benefit_001",
+      "category": "Compensation",
+      "title": "Competitive salary packages (6-15 LPA)",
+      "description": "Industry-leading compensation based on skills and experience",
+      "icon": "💰",
+      "priority": 1
+    },
+    {
+      "id": "benefit_002",
+      "category": "Compensation",
+      "title": "Performance-based bonuses",
+      "description": "Quarterly and annual bonuses based on individual and team performance",
+      "icon": "🎯",
+      "priority": 2
+    },
+    {
+      "id": "benefit_003",
+      "category": "Health",
+      "title": "Health insurance coverage",
+      "description": "Comprehensive medical insurance for employee and family",
+      "icon": "🏥",
+      "priority": 3
+    },
+    {
+      "id": "benefit_004",
+      "category": "Work-Life",
+      "title": "Work from home flexibility",
+      "description": "Hybrid work model with flexible remote work options",
+      "icon": "🏠",
+      "priority": 4
+    },
+    {
+      "id": "benefit_005",
+      "category": "Growth",
+      "title": "Learning & development programs",
+      "description": "Sponsored certifications, training programs, and conference attendance",
+      "icon": "📚",
+      "priority": 5
+    },
+    {
+      "id": "benefit_006",
+      "category": "Career",
+      "title": "International project exposure",
+      "description": "Opportunity to work on global projects with international clients",
+      "icon": "🌍",
+      "priority": 6
+    },
+    {
+      "id": "benefit_007",
+      "category": "Workplace",
+      "title": "Modern office facilities",
+      "description": "State-of-the-art office with recreational facilities",
+      "icon": "🏢",
+      "priority": 7
+    },
+    {
+      "id": "benefit_008",
+      "category": "Time-off",
+      "title": "Generous leave policy",
+      "description": "25 days annual leave plus public holidays and sick leave",
+      "icon": "🌴",
+      "priority": 8
+    }
+  ],
+  "campusDriveTimeline": [
+    {
+      "step": 1,
+      "id": "timeline_001",
+      "title": "Online Assessment",
+      "description": "Complete MCQ & Coding tests",
+      "duration": "120 minutes",
+      "status": "current",
+      "color": "green",
+      "details": [
+        "Aptitude test (30 questions)",
+        "Logical reasoning (30 questions)", 
+        "Coding challenge (2 problems)",
+        "Time limit: 2 hours total"
+      ],
+      "passingCriteria": "Minimum 60% in MCQ and 1 coding solution"
+    },
+    {
+      "step": 2,
+      "id": "timeline_002", 
+      "title": "Technical Interview",
+      "description": "Technical round with engineers",
+      "duration": "45 minutes",
+      "status": "upcoming",
+      "color": "blue",
+      "details": [
+        "Technical concepts discussion",
+        "Code review and optimization",
+        "System design basics",
+        "Problem-solving approach"
+      ],
+      "passingCriteria": "Technical competency evaluation"
+    },
+    {
+      "step": 3,
+      "id": "timeline_003",
+      "title": "HR Interview", 
+      "description": "Final round with HR team",
+      "duration": "30 minutes",
+      "status": "upcoming",
+      "color": "purple",
+      "details": [
+        "Cultural fit assessment",
+        "Career goals discussion",
+        "Compensation negotiation",
+        "Final selection"
+      ],
+      "passingCriteria": "Overall suitability for the role"
+    }
+  ],
+  "testConfiguration": {
+    "totalDuration": 120,
+    "sections": {
+      "mcq": {
+        "duration": 60,
+        "totalQuestions": 30,
+        "subsections": {
+          "aptitude": {
+            "questions": 10,
+            "timeLimit": 20,
+            "passingScore": 6
+          },
+          "logical": {
+            "questions": 10, 
+            "timeLimit": 20,
+            "passingScore": 6
+          },
+          "verbal": {
+            "questions": 10,
+            "timeLimit": 20, 
+            "passingScore": 6
+          }
+        }
+      },
+      "coding": {
+        "duration": 60,
+        "totalQuestions": 2,
+        "languages": ["JavaScript", "Python", "Java", "C++"],
+        "passingCriteria": "At least 1 problem solved correctly"
+      }
+    },
+    "rules": {
+      "canSwitchSections": false,
+      "mustCompleteInOrder": true,
+      "autoSubmitOnTimeEnd": true,
+      "countdownBeforeSwitch": 3
+    }
+  }
+}
