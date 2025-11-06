@@ -1,9 +1,10 @@
 import './App.css'
+import Dashboard from './dashboard/dashboard'
 
 function App() {
 
   return (
-     <h1>hello Jay</h1>
+     <Dashboard />
   )
 }
 
