@@ -85,46 +85,6 @@
       "description": "Comprehensive medical insurance for employee and family",
       "icon": "🏥",
       "priority": 3
-    },
-    {
-      "id": "benefit_004",
-      "category": "Work-Life",
-      "title": "Work from home flexibility",
-      "description": "Hybrid work model with flexible remote work options",
-      "icon": "🏠",
-      "priority": 4
-    },
-    {
-      "id": "benefit_005",
-      "category": "Growth",
-      "title": "Learning & development programs",
-      "description": "Sponsored certifications, training programs, and conference attendance",
-      "icon": "📚",
-      "priority": 5
-    },
-    {
-      "id": "benefit_006",
-      "category": "Career",
-      "title": "International project exposure",
-      "description": "Opportunity to work on global projects with international clients",
-      "icon": "🌍",
-      "priority": 6
-    },
-    {
-      "id": "benefit_007",
-      "category": "Workplace",
-      "title": "Modern office facilities",
-      "description": "State-of-the-art office with recreational facilities",
-      "icon": "🏢",
-      "priority": 7
-    },
-    {
-      "id": "benefit_008",
-      "category": "Time-off",
-      "title": "Generous leave policy",
-      "description": "25 days annual leave plus public holidays and sick leave",
-      "icon": "🌴",
-      "priority": 8
     }
   ],
   "campusDriveTimeline": [
@@ -203,7 +163,7 @@
       },
       "coding": {
         "duration": 60,
-        "totalQuestions": 2,
+        "totalQuestions": 1,
         "languages": ["JavaScript", "Python", "Java", "C++"],
         "passingCriteria": "At least 1 problem solved correctly"
       }

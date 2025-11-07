@@ -99,7 +99,7 @@ const StudentDashboard: React.FC = () => {
       setStats({
         testsCompleted: 0,
         averageScore: 0,
-        totalTests: 2,
+        totalTests: 1,
         rank: 0
       });
       setLoading(false);
