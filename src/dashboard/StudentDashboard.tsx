@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from './AuthContext';
 import { BookOpen, User, LogOut, Home, TestTube } from 'lucide-react';
-import companyConfig from './ompanyConfig.json';
+import companyConfig from './companyConfig.json';
 import type{ Test, TestProgress, StudentStats } from './types';
 import {
   DashboardTab,
