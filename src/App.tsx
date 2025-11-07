@@ -1,7 +1,7 @@
 // App.tsx (More complete version)
 import React from 'react';
 import LoginForm from './dashboard/LoginForm';
-import StudentDashboard from './dashboard/dashboard';
+import StudentDashboard from './dashboard/StudentDashboard';
 import { AuthProvider, useAuth } from './dashboard/AuthContext';
 
 const AppContent: React.FC = () => {
