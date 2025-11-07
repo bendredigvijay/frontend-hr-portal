@@ -554,8 +554,8 @@ export const MCQTestView: React.FC<{
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
               {[
                 { id: 'aptitude', name: 'Aptitude', icon: Brain, qs: 10, color: 'blue' },
-                { id: 'logical', name: 'Logical Reasoning', icon: BarChart3, qs: 10, color: 'purple' },
-                { id: 'verbal', name: 'Verbal Ability', icon: BookOpen, qs: 10, color: 'green' }
+                { id: 'logical', name: 'Logical Reasoning', icon: BarChart3, qs: 10, color: 'blue' },
+                { id: 'verbal', name: 'Verbal Ability', icon: BookOpen, qs: 10, color: 'blue' }
               ].map(sub => (
                 <div key={sub.id} className={`border-2 rounded-xl p-5 transition-all ${
                   progress[sub.id as keyof typeof progress] 
