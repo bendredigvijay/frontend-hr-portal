@@ -79,7 +79,7 @@ export const DashboardTab: React.FC<{
               <Building2 className="h-6 w-6 text-white" />
             </div>
             <div>
-              <h3 className="text-xl font-bold text-white">Smart Ship Hub</h3>
+              <h3 className="text-xl font-bold text-white">About Us</h3>
               <p className="text-xs text-gray-300">Meet your future employer</p>
             </div>
           </div>
