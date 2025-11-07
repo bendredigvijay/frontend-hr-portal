@@ -66,7 +66,7 @@ const StudentDashboard: React.FC = () => {
           title: 'Software Engineer Assessment 2025',
           description: 'Complete assessment with MCQ and Coding sections for Software Engineer position',
           duration: 120,
-          totalQuestions: 32,
+          totalQuestions: 31,
           status: 'available',
           deadline: new Date('2025-11-10T23:59:59'),
           sections: [
@@ -89,7 +89,7 @@ const StudentDashboard: React.FC = () => {
               name: 'Coding Round',
               type: 'coding',
               duration: 60,
-              questions: 2,
+              questions: 1,
               description: 'Programming problem solving',
               completed: false
             }
